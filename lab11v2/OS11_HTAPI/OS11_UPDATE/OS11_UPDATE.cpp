@@ -35,8 +35,8 @@ int main(int argc, char* argv[])
 	int maxKeyLength = 10;
 	int maxPayloadLength = 10;
 	wchar_t* fileName;
-	const wchar_t* directoryPath = L"C:\\univer\\semestr_6\\OS\\labs\\lab11v2\\HT\\";
-	std::wstring filePath(L"C:\\univer\\semestr_6\\OS\\labs\\lab11v2\\HT\\test.ht");
+	const wchar_t* directoryPath = L"D:\\bstu\\thirdCourse2Sem\\OS\\labs\\lab11v2\\HT\\";
+	std::wstring filePath(L"D:\\bstu\\thirdCourse2Sem\\OS\\labs\\lab11v2\\HT\\test.ht");
 	try {
 		if (argv[1]) {
 			fileName = GetWC(argv[1]);
